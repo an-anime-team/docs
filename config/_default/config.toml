@@ -1,4 +1,4 @@
-baseurl = "https://doks-child-theme.netlify.app/"
+baseurl = "https://docs.launcher.moe/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
