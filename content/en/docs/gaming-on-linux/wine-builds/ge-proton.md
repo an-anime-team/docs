@@ -1,18 +1,15 @@
 ---
-title: "Contacts"
+title: "GE-Proton"
+lead: "GE-Proton is a special Proton build ..."
 date: 2023-05-31T22:03:52Z
 lastmod: 2023-05-31T22:03:52Z
 draft: false
 images: []
 menu:
   docs:
-    parent: "home"
-weight: 20
+    parent: "wine"
+weight: 1120
 toc: true
 ---
 
-## How to contact us?
-
-- ..
-- ..
-- ..
+sus
