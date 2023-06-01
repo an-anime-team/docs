@@ -7,7 +7,7 @@ images: []
 menu:
   docs:
     parent: "home"
-weight: 20
+weight: 2
 toc: true
 ---
 

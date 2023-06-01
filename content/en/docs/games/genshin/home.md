@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "genshin"
-weight: 2110
+weight: 7
 toc: true
 ---
 

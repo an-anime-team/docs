@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "star-rail"
-weight: 2210
+weight: 9
 toc: true
 ---
 

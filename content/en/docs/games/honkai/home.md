@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "honkai"
-weight: 2310
+weight: 8
 toc: true
 ---
 
