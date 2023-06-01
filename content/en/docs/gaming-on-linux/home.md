@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "gaming-on-linux"
-weight: 2
+weight: 2010
 toc: true
 ---
 
