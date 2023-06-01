@@ -5,7 +5,7 @@ weight: 3230
 toc: true
 ---
 
-### The Honkers Railway Launcher
+## The Honkers Railway Launcher
 
 Launcher made by our team. Fork of [An Anime Game Launcher](../../../launcher/home)
 
@@ -13,6 +13,6 @@ Launcher made by our team. Fork of [An Anime Game Launcher](../../../launcher/ho
 
 ...
 
-### Official launcher (windows version)
+## Official launcher (windows version)
 
 ...

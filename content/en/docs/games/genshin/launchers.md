@@ -5,7 +5,7 @@ weight: 3130
 toc: true
 ---
 
-### An Anime Game Launcher
+## An Anime Game Launcher
 
 Launcher made by our team
 
@@ -13,14 +13,14 @@ Launcher made by our team
 
 ...
 
-### Yet Another Anime Game Launcher
+## Yet Another Anime Game Launcher
 
 ...
 
-### Paimon Launcher
+## Paimon Launcher
 
 ...
 
-### Official launcher (windows version)
+## Official launcher (windows version)
 
 ...
