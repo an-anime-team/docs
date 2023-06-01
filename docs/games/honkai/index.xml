@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Honkai Impact on</title><link>https://docs.launcher.moe/docs/games/honkai/</link><description>Recent content in Honkai Impact on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.launcher.moe/docs/games/honkai/index.xml" rel="self" type="application/rss+xml"/><item><title>Home</title><link>https://docs.launcher.moe/docs/games/honkai/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.launcher.moe/docs/games/honkai/home/</guid><description>sus</description></item><item><title>Launchers</title><link>https://docs.launcher.moe/docs/games/honkai/launchers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.launcher.moe/docs/games/honkai/launchers/</guid><description>Honkers Launcher #
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Honkai Impact on</title><link>https://docs.launcher.moe/docs/games/honkai/</link><description>Recent content in Honkai Impact on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.launcher.moe/docs/games/honkai/index.xml" rel="self" type="application/rss+xml"/><item><title>Home</title><link>https://docs.launcher.moe/docs/games/honkai/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.launcher.moe/docs/games/honkai/home/</guid><description>sus</description></item><item><title>Anti-cheat</title><link>https://docs.launcher.moe/docs/games/honkai/anti-cheat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.launcher.moe/docs/games/honkai/anti-cheat/</guid><description>Basic explanation #
+&amp;hellip;
+Known security issues #
+Something about lua scripts execution and ring0 access
+Linux limitations #
+&amp;hellip;
+Patch #
+&amp;hellip;
+ToS violation #
+&amp;hellip;</description></item><item><title>Launchers</title><link>https://docs.launcher.moe/docs/games/honkai/launchers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.launcher.moe/docs/games/honkai/launchers/</guid><description>Honkers Launcher #
 Launcher made by our team. Fork of An Anime Game Launcher
 &amp;hellip;
 Official launcher (windows version) #

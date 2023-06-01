@@ -42,11 +42,15 @@ Disallow: /docs/games/genshin/
 
 Disallow: /docs/games/genshin/home/
 
+Disallow: /docs/games/genshin/anti-cheat/
+
 Disallow: /docs/games/genshin/launchers/
 
 Disallow: /docs/games/star-rail/
 
 Disallow: /docs/games/star-rail/home/
+
+Disallow: /docs/games/star-rail/anti-cheat/
 
 Disallow: /docs/games/star-rail/launchers/
 
@@ -54,11 +58,15 @@ Disallow: /docs/games/honkai/
 
 Disallow: /docs/games/honkai/home/
 
+Disallow: /docs/games/honkai/anti-cheat/
+
 Disallow: /docs/games/honkai/launchers/
 
 Disallow: /docs/games/pgr/
 
 Disallow: /docs/games/pgr/home/
+
+Disallow: /docs/games/pgr/anti-cheat/
 
 Disallow: /docs/games/pgr/launchers/
 
