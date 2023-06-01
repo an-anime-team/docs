@@ -1,7 +1,7 @@
 ---
 title: "Launchers"
 lead: "This article lists all the available launchers for the game"
-weight: 3120
+weight: 3130
 toc: true
 ---
 
