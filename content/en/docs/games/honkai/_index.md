@@ -1,4 +1,4 @@
 ---
 title : "Honkai Impact"
-weight: 3200
+weight: 3300
 ---

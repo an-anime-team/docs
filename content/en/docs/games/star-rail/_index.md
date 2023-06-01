@@ -1,4 +1,4 @@
 ---
 title : "Honkai: Star Rail"
-weight: 3300
+weight: 3200
 ---
