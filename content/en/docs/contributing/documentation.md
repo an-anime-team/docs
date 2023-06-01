@@ -8,6 +8,7 @@ toc: true
 ## Getting started
 
 For contributing you will need the following:
+
 - git installed, this will most likely already be the case
 - a GitHub account
 - a text or markdown editor like VSCode
@@ -24,7 +25,7 @@ Now you just need to edit something!
 
 ## Previewing edits
 
-The recommended way to preview changes is to start a local instance of the website. Before the first launch you will need to install the dependencies: run `npm install` in the directory of the docs. Starting the local server is done by running `npm run start`, now you can open [localhost:1313](http://localhost:1313) in your browser to view the wiki. Just save your files and the website will automatically be updated to reflect your changes. 
+The recommended way to preview changes is to start a local instance of the website. Before the first launch you will need to install the dependencies: run `npm install` in the directory of the docs. Starting the local server is done by running `npm run start`, now you can open [localhost:1313](http://localhost:1313) in your browser to view the wiki. Just save your files and the website will automatically be updated to reflect your changes.
 
 ## Uploading your edits
 
