@@ -20,9 +20,9 @@ For contributing you will need the following:
 - a GitHub account
 - a text or markdown editor like VSCode
 - some knowledge of markdown ([guide to markdown](https://www.markdownguide.org/basic-syntax))
-- nodejs (optional) for previewing your changes on a local website
+- nodejs is also strongly recommended, especially when creating new pages to see how changes appear on the wiki
 
-To set up your editing environment you will need to fork and clone the [repository](https://github.com/an-anime-team/docs). The follwing will show you how to create your own copy (fork) and download (clone) it.
+To set up your editing environment you will need to fork and clone the [repository](https://github.com/an-anime-team/docs). The following will show you how to create your own copy (fork) and download (clone) it.
 
 Open the repository in a browser, log in to GitHub and click on "Fork" in the top right. Just click on "Create fork" in the next step and you will have forked the repository!
 
