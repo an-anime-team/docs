@@ -1,8 +1,4 @@
 ---
 title : "Home"
-date: 2023-05-31T22:03:52Z
-lastmod: 2023-05-31T22:03:52Z
-draft: false
-images: []
-weight: 0
+weight: 1000
 ---

@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "An Anime Team"
+title = "Launcher.moe"
 titleSeparator = "-"
-titleAddition = "An Anime Team Documentation Page"
-description = "Documentation containing all the stuff related to our work"
+titleAddition = "Documentation & Blog"
+description = "Documentation containing all the stuff related to playing anime games on linux"
 
 ## Documentation
 # docsVersion = "0.3"
@@ -32,7 +32,7 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "Powered by <a class=\"text-muted\" href=\"https://pages.github.com/\">Github Pages</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
 copyRight = "Copyright (c) 2023 An Anime Team"
