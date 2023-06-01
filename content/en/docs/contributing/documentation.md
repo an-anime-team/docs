@@ -3,7 +3,7 @@ title: "Documentation"
 description: "This page will explain how to contribute to this documentation"
 lead: "This page will explain how to contribute to this documentation"
 date: 2023-05-31T22:03:52Z
-lastmod: 2023-05-31T22:03:52Z
+lastmod: 2023-06-01T16:49:45Z
 draft: false
 images: []
 menu:
@@ -29,6 +29,10 @@ Open the repository in a browser, log in to GitHub and click on "Fork" in the to
 To clone your fork type `git clone https://github.com/[your GitHub username]/docs.git` into a terminal and git will create a directory named docs and download the repository there.
 
 Now you just need to edit something!
+
+# Previewing edits
+
+The recommended way to preview changes is to start a local instance of the website. Before the first launch you will need to install the dependencies: run `npm install` in the directory of the docs. Starting the local server is done by running `npm run start`, now you can open [localhost:1313](http://localhost:1313) in your browser to view the wiki. Just save your files and the website will automatically be updated to reflect your changes. 
 
 # Uploading your edits
 
