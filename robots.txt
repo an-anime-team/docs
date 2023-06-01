@@ -1,4 +1,115 @@
-User-agent: *
-Allow: /
+User-Agent: *
 
-Sitemap: https://docs.launcher.moe/sitemap.xml
+Disallow: /blog/say-hello-to-doks/
+
+Disallow: /docs/home/
+
+Disallow: /docs/home/introduction/
+
+Disallow: /docs/home/contacts/
+
+Disallow: /docs/gaming-on-linux/
+
+Disallow: /docs/gaming-on-linux/home/
+
+Disallow: /docs/gaming-on-linux/wine/
+
+Disallow: /docs/gaming-on-linux/dxvk/
+
+Disallow: /docs/gaming-on-linux/wine-builds/
+
+Disallow: /docs/gaming-on-linux/wine-builds/wine-ge-proton/
+
+Disallow: /docs/gaming-on-linux/wine-builds/ge-proton/
+
+Disallow: /docs/gaming-on-linux/wine-builds/soda/
+
+Disallow: /docs/gaming-on-linux/wine-builds/lutris/
+
+Disallow: /docs/gaming-on-linux/wine-builds/wine-staging-tkg/
+
+Disallow: /docs/gaming-on-linux/dxvk-builds/
+
+Disallow: /docs/gaming-on-linux/dxvk-builds/dxvk/
+
+Disallow: /docs/gaming-on-linux/dxvk-builds/dxvk-async/
+
+Disallow: /docs/gaming-on-linux/dxvk-builds/dxvk-gplasync/
+
+Disallow: /docs/games/
+
+Disallow: /docs/games/genshin/
+
+Disallow: /docs/games/genshin/home/
+
+Disallow: /docs/games/genshin/launchers/
+
+Disallow: /docs/games/star-rail/
+
+Disallow: /docs/games/star-rail/home/
+
+Disallow: /docs/games/star-rail/launchers/
+
+Disallow: /docs/games/honkai/
+
+Disallow: /docs/games/honkai/home/
+
+Disallow: /docs/games/honkai/launchers/
+
+Disallow: /docs/games/pgr/
+
+Disallow: /docs/games/pgr/home/
+
+Disallow: /docs/games/pgr/launchers/
+
+Disallow: /docs/launcher/
+
+Disallow: /docs/launcher/home/
+
+Disallow: /docs/launcher/config/
+
+Disallow: /docs/launcher/general/
+
+Disallow: /docs/launcher/general/components/
+
+Disallow: /docs/launcher/enhancements/
+
+Disallow: /docs/launcher/enhancements/sessions/
+
+Disallow: /docs/launcher/enhancements/sandbox/
+
+Disallow: /docs/launcher/enhancements/environment/
+
+Disallow: /docs/launcher/enhancements/wine/
+
+Disallow: /docs/launcher/enhancements/game/
+
+Disallow: /docs/contributing/
+
+Disallow: /docs/contributing/launchers/
+
+Disallow: /docs/contributing/translation/
+
+Disallow: /docs/contributing/documentation/
+
+Disallow: /categories/
+
+Disallow: /contributors/
+
+Disallow: /contributors/henk-verlinde/
+
+Disallow: /categories/news/
+
+Disallow: /tags/performance/
+
+Disallow: /tags/security/
+
+Disallow: /tags/seo/
+
+Disallow: /tags/
+
+Disallow: /blog/
+
+Disallow: /docs/
+
+Disallow: /
