@@ -5,7 +5,7 @@ weight: 5030
 toc: true
 ---
 
-# Getting started
+## Getting started
 
 For contributing you will need the following:
 - git installed, this will most likely already be the case
@@ -22,16 +22,16 @@ To clone your fork type `git clone https://github.com/[your GitHub username]/doc
 
 Now you just need to edit something!
 
-# Previewing edits
+## Previewing edits
 
 The recommended way to preview changes is to start a local instance of the website. Before the first launch you will need to install the dependencies: run `npm install` in the directory of the docs. Starting the local server is done by running `npm run start`, now you can open [localhost:1313](http://localhost:1313) in your browser to view the wiki. Just save your files and the website will automatically be updated to reflect your changes. 
 
-# Uploading your edits
+## Uploading your edits
 
 After you are done with your edits you will need to commit your changes with `git commit -m 'I changed something'` and push your changes with `git push`. If you are prompted for your GitHub credentials you will most likely need to create an [access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic).
 
 Next open your repository, click on "Contribute" and open a pull request.
 
-# Code of conduct
+## Code of conduct
 
 - Date format: [ISO](https://greenwichmeantime.com/articles/clocks/iso)
