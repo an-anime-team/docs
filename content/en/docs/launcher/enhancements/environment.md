@@ -31,7 +31,7 @@ The keywords available both in the game command field and in the values of envir
 | `%game%` | Path to the folder where the game is installed | `$HOME/.local/share/anime-game-launcher/game` |
 | `%temp%` | Path to the temporary directory used by the luncher | `$HOME/.local/share/anime-game-launcher` |
 
-### Game launcher
+### Game launch command
 
 Keywords available only in the field with the game launch command.
 
