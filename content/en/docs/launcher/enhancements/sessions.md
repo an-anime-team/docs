@@ -8,7 +8,7 @@ toc: true
 ### Where to find
 
 1. Open the launcher settings
-2. Go to the "Ehancements tab
+2. Go to the "Enhancements tab
 3. Open the "Game" sub-tab
 
 ### Description
