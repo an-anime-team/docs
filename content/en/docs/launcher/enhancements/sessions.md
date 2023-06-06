@@ -5,13 +5,13 @@ weight: 4210
 toc: true
 ---
 
-### Where to find
+## Where to find
 
 1. Open the launcher settings
 2. Go to the "Enhancements tab
 3. Open the "Game" sub-tab
 
-### Description
+## Description
 
 In this tab, you can change in-game settings. So far, only saving the game session is available. Adding more settings is planned in the future.
 
