@@ -1,0 +1,98 @@
+var suggestions=document.getElementById("suggestions"),search=document.getElementById("search");search!==null&&document.addEventListener("keydown",inputFocus);function inputFocus(e){e.ctrlKey&&e.key==="/"&&(e.preventDefault(),search.focus()),e.key==="Escape"&&(search.blur(),suggestions.classList.add("d-none"))}document.addEventListener("click",function(e){var t=suggestions.contains(e.target);t||suggestions.classList.add("d-none")}),document.addEventListener("keydown",suggestionFocus);function suggestionFocus(e){const s=suggestions.classList.contains("d-none");if(s)return;const t=[...suggestions.querySelectorAll("a")];if(t.length===0)return;const n=t.indexOf(document.activeElement);if(e.key==="ArrowUp"){e.preventDefault();const s=n>0?n-1:0;t[s].focus()}else if(e.key==="ArrowDown"){e.preventDefault();const s=n+1<t.length?n+1:n;t[s].focus()}}(function(){var e=new FlexSearch.Document({tokenize:"forward",cache:100,document:{id:"id",store:["href","title","description"],index:["title","description","content"]}});e.add({id:0,href:"/docs/home/",title:"Home",description:"",content:""}),e.add({id:1,href:"/docs/home/introduction/",title:"Introduction",description:`Who we are? #\u0026hellip;`,content:`Who we are? #\u0026hellip;
+`}),e.add({id:2,href:"/docs/home/contacts/",title:"Contacts",description:`How to contact us? #.. .. .. `,content:`How to contact us? #.. .. .. `}),e.add({id:3,href:"/docs/gaming-on-linux/",title:"Gaming on linux",description:"",content:""}),e.add({id:4,href:"/docs/gaming-on-linux/home/",title:"Home",description:"Yes we all remember it",content:`Yes we all remember it
+`}),e.add({id:5,href:"/docs/gaming-on-linux/wine/",title:"Wine",description:"sus",content:`sus
+`}),e.add({id:6,href:"/docs/gaming-on-linux/dxvk/",title:"DXVK",description:"sus",content:`sus
+`}),e.add({id:7,href:"/docs/gaming-on-linux/wine-builds/",title:"Wine builds",description:"",content:""}),e.add({id:8,href:"/docs/gaming-on-linux/wine-builds/wine-ge-proton/",title:"Wine-GE-Proton",description:"sus",content:`sus
+`}),e.add({id:9,href:"/docs/gaming-on-linux/wine-builds/ge-proton/",title:"GE-Proton",description:"sus",content:`sus
+`}),e.add({id:10,href:"/docs/gaming-on-linux/wine-builds/soda/",title:"Soda",description:"sus",content:`sus
+`}),e.add({id:11,href:"/docs/gaming-on-linux/wine-builds/lutris/",title:"Lutris",description:"sus",content:`sus
+`}),e.add({id:12,href:"/docs/gaming-on-linux/wine-builds/wine-staging-tkg/",title:"Wine-Staging-TkG",description:"sus",content:`sus
+`}),e.add({id:13,href:"/docs/gaming-on-linux/dxvk-builds/",title:"DXVK builds",description:"",content:""}),e.add({id:14,href:"/docs/gaming-on-linux/dxvk-builds/dxvk/",title:"DXVK",description:"sus",content:`sus
+`}),e.add({id:15,href:"/docs/gaming-on-linux/dxvk-builds/dxvk-async/",title:"DXVK Async",description:"sus",content:`sus
+`}),e.add({id:16,href:"/docs/gaming-on-linux/dxvk-builds/dxvk-gplasync/",title:"DXVK Gplasync",description:"sus",content:`sus
+`}),e.add({id:17,href:"/docs/games/",title:"Games",description:"",content:""}),e.add({id:18,href:"/docs/games/genshin/",title:"Genshin Impact",description:"",content:""}),e.add({id:19,href:"/docs/games/genshin/home/",title:"Home",description:"sus",content:`sus
+`}),e.add({id:20,href:"/docs/games/genshin/anti-cheat/",title:"Anti-cheat",description:`Basic explanation #\u0026hellip;
+Known security issues #Something about lua scripts execution and ring0 access
+Linux limitations #\u0026hellip;
+Patch #\u0026hellip;
+ToS violation #\u0026hellip;
+Xlua patch #\u0026hellip;
+\u0026ldquo;Patchless\u0026rdquo; #Some information about known patchless launch methods`,content:`Basic explanation #\u0026hellip;
+Known security issues #Something about lua scripts execution and ring0 access
+Linux limitations #\u0026hellip;
+Patch #\u0026hellip;
+ToS violation #\u0026hellip;
+Xlua patch #\u0026hellip;
+\u0026ldquo;Patchless\u0026rdquo; #Some information about known patchless launch methods
+`}),e.add({id:21,href:"/docs/games/genshin/launchers/",title:"Launchers",description:`An Anime Game Launcher #Launcher made by our team
+\u0026hellip;
+Yet Another Anime Game Launcher #\u0026hellip;
+Paimon Launcher #\u0026hellip;
+Official launcher (windows version) #\u0026hellip;`,content:`An Anime Game Launcher #Launcher made by our team
+\u0026hellip;
+Yet Another Anime Game Launcher #\u0026hellip;
+Paimon Launcher #\u0026hellip;
+Official launcher (windows version) #\u0026hellip;
+`}),e.add({id:22,href:"/docs/games/star-rail/",title:"Honkai: Star Rail",description:"",content:""}),e.add({id:23,href:"/docs/games/star-rail/home/",title:"Home",description:"sus",content:`sus
+`}),e.add({id:24,href:"/docs/games/star-rail/anti-cheat/",title:"Anti-cheat",description:`Basic explanation #\u0026hellip;
+Known security issues #Something about lua scripts execution and ring0 access
+Linux limitations #\u0026hellip;
+Patch #\u0026hellip;
+ToS violation #\u0026hellip;
+First ban wave #\u0026hellip;`,content:`Basic explanation #\u0026hellip;
+Known security issues #Something about lua scripts execution and ring0 access
+Linux limitations #\u0026hellip;
+Patch #\u0026hellip;
+ToS violation #\u0026hellip;
+First ban wave #\u0026hellip;
+`}),e.add({id:25,href:"/docs/games/star-rail/launchers/",title:"Launchers",description:`The Honkers Railway Launcher #Launcher made by our team. Fork of An Anime Game Launcher
+\u0026hellip;
+Official launcher (windows version) #\u0026hellip;`,content:`The Honkers Railway Launcher #Launcher made by our team. Fork of An Anime Game Launcher
+\u0026hellip;
+Official launcher (windows version) #\u0026hellip;
+`}),e.add({id:26,href:"/docs/games/honkai/",title:"Honkai Impact",description:"",content:""}),e.add({id:27,href:"/docs/games/honkai/home/",title:"Home",description:"sus",content:`sus
+`}),e.add({id:28,href:"/docs/games/honkai/anti-cheat/",title:"Anti-cheat",description:`Basic explanation #\u0026hellip;
+Known security issues #Something about lua scripts execution and ring0 access
+Linux limitations #\u0026hellip;
+Patch #\u0026hellip;
+ToS violation #\u0026hellip;`,content:`Basic explanation #\u0026hellip;
+Known security issues #Something about lua scripts execution and ring0 access
+Linux limitations #\u0026hellip;
+Patch #\u0026hellip;
+ToS violation #\u0026hellip;
+`}),e.add({id:29,href:"/docs/games/honkai/launchers/",title:"Launchers",description:`Honkers Launcher #Launcher made by our team. Fork of An Anime Game Launcher
+\u0026hellip;
+Official launcher (windows version) #\u0026hellip;`,content:`Honkers Launcher #Launcher made by our team. Fork of An Anime Game Launcher
+\u0026hellip;
+Official launcher (windows version) #\u0026hellip;
+`}),e.add({id:30,href:"/docs/games/pgr/",title:"Punishing: Gray Raven",description:"",content:""}),e.add({id:31,href:"/docs/games/pgr/home/",title:"Home",description:"sus",content:`sus
+`}),e.add({id:32,href:"/docs/games/pgr/anti-cheat/",title:"Anti-cheat",description:"As far as we know this game does not have a client-side anti-cheat at all, which allows us to run the game without files modifications at all",content:`As far as we know this game does not have a client-side anti-cheat at all, which allows us to run the game without files modifications at all
+`}),e.add({id:33,href:"/docs/games/pgr/launchers/",title:"Launchers",description:`An Anime Borb Launcher #Launcher made by our team. Fork of An Anime Game Launcher
+\u0026hellip;
+Official launcher (windows version) #\u0026hellip;`,content:`An Anime Borb Launcher #Launcher made by our team. Fork of An Anime Game Launcher
+\u0026hellip;
+Official launcher (windows version) #\u0026hellip;
+`}),e.add({id:34,href:"/docs/launcher/",title:"Launcher",description:"",content:""}),e.add({id:35,href:"/docs/launcher/home/",title:"Home",description:"sus",content:` sus
+`}),e.add({id:36,href:"/docs/launcher/config/",title:"Config file",description:"sus",content:`sus
+`}),e.add({id:37,href:"/docs/launcher/general/",title:"General settings",description:"",content:""}),e.add({id:38,href:"/docs/launcher/general/components/",title:"Components",description:"sus",content:`sus
+`}),e.add({id:39,href:"/docs/launcher/enhancements/",title:"Enhancements settings",description:"",content:""}),e.add({id:40,href:"/docs/launcher/enhancements/sessions/",title:"Sessions",description:`Where to find #Open the launcher settings Go to the \u0026ldquo;Ehancements tab Open the \u0026ldquo;Game\u0026rdquo; sub-tab Description #In this tab, you can change in-game settings. So far, only saving the game session is available. Adding more settings is planned in the future.
+The game stores information about the account from which you logged into the game in the Windows registry. Launcher can determine this information and save it in a separate file.`,content:`Where to find #Open the launcher settings Go to the \u0026ldquo;Ehancements tab Open the \u0026ldquo;Game\u0026rdquo; sub-tab Description #In this tab, you can change in-game settings. So far, only saving the game session is available. Adding more settings is planned in the future.
+The game stores information about the account from which you logged into the game in the Windows registry. Launcher can determine this information and save it in a separate file.
+When creating a new session inside the launcher, it will copy the information from the necessary Windows registry keys. When you start the game with the selected session, the Wine prefix registry will be updated with the account information that has been saved. Thus, if you deleted the prefix or changed the Wine version to the Proton build (which has its own, isolated prefix), the launcher will restore your session and you will not need to log in to your account again.
+After exiting the game, the launcher finds the changes in the registry and updates the saved account information. This way the session will be updated according to your actions in the game.
+`}),e.add({id:41,href:"/docs/launcher/enhancements/sandbox/",title:"Sandbox",description:"sus",content:`sus
+`}),e.add({id:42,href:"/docs/launcher/enhancements/environment/",title:"Environment",description:"sus",content:`sus
+`}),e.add({id:43,href:"/docs/launcher/enhancements/wine/",title:"Wine settings",description:"sus",content:`sus
+`}),e.add({id:44,href:"/docs/launcher/enhancements/game/",title:"Game settings",description:"sus",content:`sus
+`}),e.add({id:45,href:"/docs/contributing/",title:"Contributing",description:"",content:""}),e.add({id:46,href:"/docs/contributing/launchers/",title:"Launchers",description:"sus",content:`sus
+`}),e.add({id:47,href:"/docs/contributing/translation/",title:"Translation",description:"sus",content:`sus
+`}),e.add({id:48,href:"/docs/contributing/documentation/",title:"Documentation",description:`Getting started #For contributing you will need the following:
+git installed, this will most likely already be the case a GitHub account a text or markdown editor like VSCode some knowledge of markdown (guide to markdown) nodejs is also strongly recommended, especially when creating new pages to see how changes appear on the wiki To set up your editing environment you will need to fork and clone the repository. The following will show you how to create your own copy (fork) and download (clone) it.`,content:`Getting started #For contributing you will need the following:
+git installed, this will most likely already be the case a GitHub account a text or markdown editor like VSCode some knowledge of markdown (guide to markdown) nodejs is also strongly recommended, especially when creating new pages to see how changes appear on the wiki To set up your editing environment you will need to fork and clone the repository. The following will show you how to create your own copy (fork) and download (clone) it.
+Open the repository in a browser, log in to GitHub and click on \u0026ldquo;Fork\u0026rdquo; in the top right. Just click on \u0026ldquo;Create fork\u0026rdquo; in the next step and you will have forked the repository!
+To clone your fork type git clone https://github.com/[your GitHub username]/docs.git into a terminal and git will create a directory named docs and download the repository there.
+Now you just need to edit something!
+Previewing edits #The recommended way to preview changes is to start a local instance of the website. Before the first launch you will need to install the dependencies: run npm install in the directory of the docs. Starting the local server is done by running npm run start, now you can open localhost:1313 in your browser to view the wiki. Just save your files and the website will automatically be updated to reflect your changes.
+Uploading your edits #After you are done with your edits you will need to commit your changes with git commit -m 'I changed something' and push your changes with git push. If you are prompted for your GitHub credentials you will most likely need to create an access token.
+Next open your repository, click on \u0026ldquo;Contribute\u0026rdquo; and open a pull request.
+Code of conduct #Date format: ISO `}),e.add({id:49,href:"/docs/",title:"Docs",description:"",content:""}),search.addEventListener("input",t,!0);function t(){const s=5;var n=this.value,o=e.search(n,{limit:s,enrich:!0});const t=new Map;for(const e of o.flatMap(e=>e.result)){if(t.has(e.doc.href))continue;t.set(e.doc.href,e.doc)}if(suggestions.innerHTML="",suggestions.classList.remove("d-none"),t.size===0&&n){const e=document.createElement("div");e.innerHTML=`No results for "<strong>${n}</strong>"`,e.classList.add("suggestion__no-results"),suggestions.appendChild(e);return}for(const[r,a]of t){const n=document.createElement("div");suggestions.appendChild(n);const e=document.createElement("a");e.href=r,n.appendChild(e);const o=document.createElement("span");o.textContent=a.title,o.classList.add("suggestion__title"),e.appendChild(o);const i=document.createElement("span");if(i.textContent=a.description,i.classList.add("suggestion__description"),e.appendChild(i),suggestions.appendChild(n),suggestions.childElementCount==s)break}}})()
