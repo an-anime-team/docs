@@ -37,7 +37,7 @@ Keywords available only in the field with the game launch command.
 
 | Keyword | Value | Example |
 | - | - | - |
-| `%bash_command% ` The part of the game starting command containing the Wine executable file, as well as additional utilities like `gamemoderun` | `gamemoderun 'HOME/.local/share/anime-game-launcher/runners/lutris-GE-Proton8-7-x86_64/bin/wine64'` |
+| `%bash_command%` The part of the game starting command containing the Wine executable file, as well as additional utilities like `gamemoderun` | `gamemoderun 'HOME/.local/share/anime-game-launcher/runners/lutris-GE-Proton8-7-x86_64/bin/wine64'` |
 | `%windows_command%` | The part of the game starting command containing the Windows parameters. Mainly the path to the `.bat` file which runs the game and the `-window-mode exclusive` or `-screen-fullscreen 0 -popupwindow` parameters if the corresponding settings are selected | `launcher.bat -window-mode exclusive` |
 | `%command%` | Full command to start the game | `%bash_command% %windows_command%` |
 
