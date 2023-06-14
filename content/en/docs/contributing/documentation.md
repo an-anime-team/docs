@@ -1,6 +1,7 @@
 ---
 title: "Documentation"
-lead: "This page will explain how to contribute to this documentation"
+lead: "How to contribute to the documentation"
+description: "How to contribute to the documentation"
 weight: 5030
 toc: true
 ---
