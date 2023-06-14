@@ -1,15 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Honkai: Star Rail on</title><link>https://docs.launcher.moe/docs/games/star-rail/</link><description>Recent content in Honkai: Star Rail on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.launcher.moe/docs/games/star-rail/index.xml" rel="self" type="application/rss+xml"/><item><title>Home</title><link>https://docs.launcher.moe/docs/games/star-rail/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.launcher.moe/docs/games/star-rail/home/</guid><description>sus</description></item><item><title>Anti-cheat</title><link>https://docs.launcher.moe/docs/games/star-rail/anti-cheat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.launcher.moe/docs/games/star-rail/anti-cheat/</guid><description>Basic explanation #
-&amp;hellip;
-Known security issues #
-Something about lua scripts execution and ring0 access
-Linux limitations #
-&amp;hellip;
-Patch #
-&amp;hellip;
-ToS violation #
-&amp;hellip;
-First ban wave #
-&amp;hellip;</description></item><item><title>Launchers</title><link>https://docs.launcher.moe/docs/games/star-rail/launchers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.launcher.moe/docs/games/star-rail/launchers/</guid><description>The Honkers Railway Launcher #
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Honkai: Star Rail on</title><link>https://docs.launcher.moe/docs/games/star-rail/</link><description>Recent content in Honkai: Star Rail on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.launcher.moe/docs/games/star-rail/index.xml" rel="self" type="application/rss+xml"/><item><title>Home</title><link>https://docs.launcher.moe/docs/games/star-rail/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.launcher.moe/docs/games/star-rail/home/</guid><description>sus</description></item><item><title>Anti-Cheat</title><link>https://docs.launcher.moe/docs/games/star-rail/anti-cheat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.launcher.moe/docs/games/star-rail/anti-cheat/</guid><description>Basic explanation #
+The game uses AntiCheatExpert (ACE), which is not natively supported on Linux and is designed for Windows. There is a Windows compatibility layer known as Wine which is designed to allow software written for Windows to run on Linux. But even with Wine, ACE does not work. The only way to get the game to run is to run it without ACE and use some workarounds and tricks to mimic ACE&amp;rsquo;s behaviour.</description></item><item><title>Launchers</title><link>https://docs.launcher.moe/docs/games/star-rail/launchers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.launcher.moe/docs/games/star-rail/launchers/</guid><description>The Honkers Railway Launcher #
 Launcher made by our team. Fork of An Anime Game Launcher
 &amp;hellip;
 Official launcher (windows version) #
