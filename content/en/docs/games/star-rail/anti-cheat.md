@@ -10,7 +10,7 @@ toc: true
 
 The game uses AntiCheatExpert (ACE), which is not natively supported on Linux and is designed for Windows. There is a Windows compatibility layer known as Wine which is designed to allow software written for Windows to run on Linux. But even with Wine, ACE does not work. The only way to get the game to run is to run it without ACE and use some workarounds and tricks to mimic ACE's behaviour.
 
-The game also requires DirectX shared resources, which will probably never be fully supported by DXVK/WineD3D. WineD3D is Wine's implementation of DirectX, translating Direct3D and DirectDraw API calls into OpenGL. DXVK translates DirectX API calls to Vulkan for use with Wine. To allow the game to run, this feature must be forcibly disabled in the game's engine through heavy engineering. This may lead to some graphical glitches. 
+The game also requires DirectX shared resources, which will probably never be fully supported by DXVK/WineD3D. WineD3D is Wine's implementation of DirectX, translating Direct3D and DirectDraw API calls into OpenGL. DXVK translates DirectX API calls to Vulkan for use with Wine. To allow the game to run, this feature must be forcibly disabled in the game's engine through heavy engineering. This may lead to some graphical glitches.
 
 ### Known security issues
 
@@ -19,6 +19,7 @@ TO BE ADDED: Something about lua scripts execution and ring0 access
 ### Patches
 
 There are two known patches that are used to allow the game to run on Linux:
+
 - ~~`astra`~~ (obsolete, see [First ban wave](#first-ban-wave))
 - `jadeite`
 
