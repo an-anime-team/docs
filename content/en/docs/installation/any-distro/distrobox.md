@@ -30,6 +30,8 @@ Enter the container and wait for it to complete the initialization, it may take 
 distrobox enter box-arch
 ```
 
+## Install the launcher
+
 After that follow the [appropriate guide](../../distro-specific/) for the distribution you installed as a container. 
 
 ## Patching
