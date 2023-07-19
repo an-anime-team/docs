@@ -1,7 +1,7 @@
 ---
 title: "Flatpak"
 lead: "Flatpak is a distribution-agnostic packaging format that makes it easy to install apps and control their access to your system"
-weight: 7110
+weight: 71100
 toc: true
 ---
 
