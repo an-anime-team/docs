@@ -7,13 +7,13 @@ toc: true
 
 ## Enable Cachix
 
-It is recommended that you set up Cachix before the installation as not have to compile the launcher yourself.
-You can do so by running
+It is recommended that you set up Cachix before the installation as not to have to compile the launcher yourself.
+You can do so by running:
 ```sh
 nix-shell -p cachix --run "cachix use ezkea"
 ```
 
-Or alternatively in a declarative way by appending the following to your `configuration.nix`
+Or alternatively in a declarative way by appending the following to your `configuration.nix`:
 ```nix
 {
   nix.settings = {
@@ -25,7 +25,7 @@ Or alternatively in a declarative way by appending the following to your `config
 
 ## Installation
 
-Add the following to your `configuration.nix`.
+Add the following to your `configuration.nix`:
 ```nix
 let
   aagl-gtk-on-nix = import (builtins.fetchTarball "https://github.com/ezKEa/aagl-gtk-on-nix/archive/main.tar.gz");
@@ -44,7 +44,7 @@ Then install the launcher by running:
 nixos-rebuild switch 
 ```
 
-Alternatively, you can install the launcher using [home-manager](https://github.com/nix-community/home-manager) by adding the following to your `home.nix`.
+Alternatively, you can install the launcher using [home-manager](https://github.com/nix-community/home-manager) by adding the following to your `home.nix`:
 ```nix
 let
   aagl-gtk-on-nix = import (builtins.fetchTarball "https://github.com/ezKEa/aagl-gtk-on-nix/archive/main.tar.gz");
