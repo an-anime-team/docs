@@ -1,7 +1,7 @@
 ---
 title: "Arch Linux"
 lead: ""
-weight: 72100
+weight: 12100
 toc: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Gentoo"
 lead: ""
-weight: 72200
+weight: 12200
 toc: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Distrobox"
 lead: "Distrobox is a container solution that allows you to spin up (nearly) any distribution on top of your own via Podman or Docker"
-weight: 71200
+weight: 11200
 toc: true
 ---
 

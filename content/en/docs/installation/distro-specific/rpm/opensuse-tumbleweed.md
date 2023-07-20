@@ -1,7 +1,7 @@
 ---
 title: "openSUSE Tumbleweed"
 lead: ""
-weight: 72420
+weight: 12420
 toc: true
 ---
 

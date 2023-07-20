@@ -1,7 +1,7 @@
 ---
 title: "Nix"
 lead: "Nix is a declarative package manager that runs alongside your own distribution's package manager"
-weight: 71400
+weight: 11400
 toc: true
 ---
 

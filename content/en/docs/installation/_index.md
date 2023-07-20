@@ -1,4 +1,4 @@
 ---
 title : "Installation"
-weight: 70000
+weight: 10000
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Lutris"
 lead: "Lutris is a game launcher that supports many gaming platforms"
-weight: 71300
+weight: 11300
 toc: true
 ---
 

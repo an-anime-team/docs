@@ -1,7 +1,7 @@
 ---
 title: "NixOS"
 lead: ""
-weight: 72300
+weight: 12300
 toc: true
 ---
 
