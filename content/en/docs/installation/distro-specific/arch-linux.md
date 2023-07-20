@@ -1,6 +1,6 @@
 ---
 title: "Arch Linux"
-lead: "I use Arch, btw"
+lead: ""
 weight: 72100
 toc: true
 ---
